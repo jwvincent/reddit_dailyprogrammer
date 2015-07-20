@@ -33,7 +33,3 @@ def Cave_of_Prosperity(input_info):
     results = [max_value, max_combination]
     # Return the results.
     return "The maximum weight that can be taken form the cave is " + str(results[0]) + "." + "\n" + "This can be acheeved by selecting the following nuggets: " + str(results[1]) + "."
-
-
-
-print (Cave_of_Prosperity([5.5000000,15,0.8650584,0.2952432,0.9213683,0.0854114,0.6849213,0.3929483,0.9295125,0.8269517,0.8900554,0.2346400,0.9676352,0.1983828,0.2847689,0.2777273,0.1182488]))
